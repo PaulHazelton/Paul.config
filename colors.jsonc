@@ -1,0 +1,78 @@
+{
+	"Abstract.Ideas": {
+		"Background": "#1A1A1A",
+		"Foreground": "#dadada",
+		"Keywords": "#ff0475",
+		"Strings": "#00BC72",
+		"Comments": "#707070",
+		"Constants": "#ff00ff",
+		"Types": "#40d0f0",
+		"TypeParameters": "#0080ff",
+		"Parameters": "#ff8000",
+		"Locals": "#fff51e",
+		"Functions": "#00ff00",
+		"MarkdownHeading": "#40d0f0",
+		"MarkdownInlineCode": "#ff0475"
+	},
+	"Mappings": {
+		"Visual.Studio.2019": {
+			"Keywords": [ "Keyword", "XML Name", "XML Doc Comments - Name" ],
+			"Strings": [ "String", "String - Verbatim" ],
+			"Comments": [ "Comment" ],
+			"Constants": [
+				"Number",
+				"User Members - Constants",
+				"User Members - Enum Members",
+				"String - Escape Character"
+			],
+			"Types": [
+				"User Types - Classes",
+				"User Types - Delegates",
+				"User Types - Enums",
+				"User Types - Interfaces",
+				"User Types - Modules",
+				"User Types - Record Structs",
+				"User Types - Records",
+				"User Types - Structures"
+			],
+			"TypeParameters": [ "User Types - Type Parameters" ],
+			"Parameters": [ "User Members - Parameters" ],
+			"Locals": [ "User Members - Locals" ],
+			"Functions": [ "User Members - Methods" ]
+		},
+		"VSCode": {
+			"workbench.colorCustomizations": {
+				"Background": [ "editor.background" ],
+				"Foreground": [ "editor.foreground" ]
+			},
+			"editor.tokenColorCustomizations": {
+				"Comments": [ "comments" ],
+				"Strings": [ "strings" ]
+			},
+			"textMateRules.scope": {
+				"MarkdownHeading": [ "markup.heading.markdown" ],
+				"MarkdownInlineCode": [ "markup.inline.raw" ],
+				"Types": [ "support.type.property-name" ],
+				"Constants": [ "constant.numeric.json" ]
+			}
+		}
+	},
+	// TODO: Move to Mappings somehow?
+	"VSCode": {
+		"workbench.colorCustomizations": {
+			"editor.background": "#1a1a1a",
+			"editor.foreground": "#dadada",
+			"foreground": "#ffffff"
+		},
+		"editor.tokenColorCustomizations": {
+			"comments": "#707070",
+			"strings": "#00BC72"
+		},
+		"textMateRules.scope": {
+			"markup.heading.markdown": "#40d0f0",
+			"markup.inline.raw": "#88e080",
+			"support.type.property-name": "#40d0f0",
+			"constant.numeric.json": "#ff00ff"
+		}
+	}
+}
