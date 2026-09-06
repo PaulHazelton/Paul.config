@@ -1,7 +1,9 @@
 {
 	"Abstract.Ideas": {
 		"Background": "#1A1A1A",
-		"Foreground": "#dadada",
+		"Foreground": "#e0e0e0",
+		"AccentBright": "#40d0f0",
+		"AccentMid": "#0090c8",
 		"Keywords": "#ff0475",
 		"Strings": "#00BC72",
 		"Comments": "#707070",
@@ -50,7 +52,7 @@
 				"Strings": [ "strings" ]
 			},
 			"textMateRules.scope": {
-				"MarkdownHeading": [ "markup.heading.markdown" ],
+				"MarkdownHeading": [ "entity.name.section.markdown" ],
 				"MarkdownInlineCode": [ "markup.inline.raw" ],
 				"Types": [ "support.type.property-name" ],
 				"Constants": [ "constant.numeric.json" ]
@@ -69,7 +71,7 @@
 			"strings": "#00BC72"
 		},
 		"textMateRules.scope": {
-			"markup.heading.markdown": "#40d0f0",
+			"entity.name.section.markdown": "#40d0f0",
 			"markup.inline.raw": "#88e080",
 			"support.type.property-name": "#40d0f0",
 			"constant.numeric.json": "#ff00ff"
