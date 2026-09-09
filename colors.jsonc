@@ -4,7 +4,7 @@
 		"Foreground": "#e0e0e0",
 		"AccentBright": "#40d0f0",
 		"AccentMid": "#0090c8",
-		"Keywords": "#ff0475",
+		"Keywords": "#e92d72",
 		"Strings": "#00BC72",
 		"Comments": "#707070",
 		"Constants": "#ff00ff",
@@ -14,7 +14,7 @@
 		"Locals": "#fff51e",
 		"Functions": "#00ff00",
 		"MarkdownHeading": "#40d0f0",
-		"MarkdownInlineCode": "#ff0475"
+		"MarkdownInlineCode": "#e92d72"
 	},
 	"Mappings": {
 		"Visual.Studio.2019": {
